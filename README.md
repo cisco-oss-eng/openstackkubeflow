@@ -87,3 +87,5 @@ kubectl -n kubeflow apply -f pvc/
 ## Deploy Kubeflow pipelines
 
 You are ready to deploy Kubeflow Pipelines at this point. Kubeflow Pipelines comes with built in examples that you can try out to get started.
+
+The example we've used in the demo is similar to [this tutorial](https://www.tensorflow.org/hub/tutorials/image_retraining) and uses [this model.](https://tfhub.dev/google/imagenet/mobilenet_v1_100_224/quantops/feature_vector/1)
